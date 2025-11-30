@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page - Cursos</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Linux Fundamentos</a></li>
+        <li><a href="#">Wireshark</a></li>
+        <li><a href="#">Python para iniciantes</a></li>
+        <li><a href="#">Power BI</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Curso de Python para Iniciantes</h1>
+    <p>Aprenda programação de forma simples, clara e rápida — mesmo começando do zero.</p>
+    <a class="btn" href="#cadastro">Quero me cadastrar</a>
+  </section>
+
+  <section class="section">
+    <div class="card">
+      <h2>Por que aprender Python?</h2>
+      <p>Python é uma das linguagens mais populares do mundo. Simples, poderosa e utilizada em empresas como Google, Netflix e Spotify.</p>
+      <ul>
+        <li>✔ Fácil de aprender</li>
+        <li>✔ Muito usada no mercado</li>
+        <li>✔ Ideal para iniciantes</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="cadastro" class="section">
+    <div class="card">
+      <h2>Cadastre-se para saber mais</h2>
+      <form id="formCadastro">
+        <label>Nome completo:</label>
+        <input type="text" placeholder="Seu nome" required />
+
+        <label>Email:</label>
+        <input type="email" placeholder="seuemail@email.com" required />
+
+        <label>Escolha seu curso:</label>
+        <select required>
+          <option>Python para iniciantes</option>
+          <option>Linux Fundamentos</option>
+          <option>Wireshark</option>
+          <option>Power BI</option>
+        </select>
+
+        <button class="btn" type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 - Página criada para avaliação de usabilidade.
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
